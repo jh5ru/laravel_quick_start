@@ -144,7 +144,7 @@ class SettingSeeder extends Seeder
             'site_id'=>1,
             'category' => 'mail',
             'name' => 'from.address',
-            'value' => 'admin@jh5.ru',
+            'value' => 'test@yandex.ru',
         ]);
 
         // mail from name
@@ -168,7 +168,7 @@ class SettingSeeder extends Seeder
             'site_id'=>1,
             'category' => 'mail',
             'name' => 'username',
-            'value' => 'admin@jh5.ru',
+            'value' => 'test@yandex.ru',
         ]);
 
         // mail password
@@ -176,7 +176,7 @@ class SettingSeeder extends Seeder
             'site_id'=>1,
             'category' => 'mail',
             'name' => 'password',
-            'value' => 'Glonkas55d3!',
+            'value' => 'test',
         ]);
 
         // mail sendmail

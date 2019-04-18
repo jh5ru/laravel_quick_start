@@ -9,7 +9,8 @@
     "repositories": [
         {
             "type": "vcs",
-            "url": "https://github.com/jh5ru/laravel_quick_start"
+            "url": "https://github.com/jh5ru/laravel_quick_start",
+            "version":"master"
         }
     ],
     "keywords": [

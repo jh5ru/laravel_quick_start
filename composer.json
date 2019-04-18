@@ -4,13 +4,13 @@
     "type": "project",
     "minimum-stability": "dev",
     "prefer-stable": true,
-    "version": "v2.0.6",
+    "version": "v2.0.1",
     "license": "MIT",
     "repositories": [
         {
             "type": "vcs",
             "url": "https://github.com/jh5ru/laravel_quick_start",
-            "version":"v2.0.6"
+            "version":"v2.0.1"
         }
     ],
     "keywords": [

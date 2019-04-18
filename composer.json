@@ -4,12 +4,13 @@
     "type": "project",
     "minimum-stability": "dev",
     "prefer-stable": true,
+    "version": "v2.0.6",
     "license": "MIT",
     "repositories": [
         {
             "type": "vcs",
             "url": "https://github.com/jh5ru/laravel_quick_start",
-            "version":"master"
+            "version":"v2.0.6"
         }
     ],
     "keywords": [
@@ -77,8 +78,7 @@
             "@php -r \"file_exists('.env') || copy('.env.example', '.env');\""
         ],
         "post-create-project-cmd": [
-            "@php artisan key:generate --ansi",
-            "@php artisan migrate:refresh --seed"
+            "@php artisan key:generate --ansi"
         ],
         "post-update-cmd": [
             "Illuminate\\Foundation\\ComposerScripts::postUpdate",

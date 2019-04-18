@@ -37,7 +37,7 @@
 ##
 ## Installation
 
-    composer create-project jh5/laravel_quick_start --stability dev
+    composer create-project --prefer-dist jh5/laravel_quick_start blog
 
     cd laravel_quick_start
 

@@ -13,6 +13,15 @@
         "laravel",
         "quick start packet"
     ],
+    "homepage": "https://jh5.ru",
+    "authors": [
+        {
+            "name": "Pavel Michkov",
+            "email": "admin@jh5.ru",
+            "homepage": "https://jh5.ru",
+            "role": "Developer"
+        }
+    ],
     "license": "MIT",
     "require": {
         "php": "^7.1.3",

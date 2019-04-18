@@ -19,32 +19,32 @@
 ##### For help visit [https://jh5.ru](https://jh5.ru)!
 
 ##### FEATURES:
-
-`1. Multi Site`
-
-`2. Login by name or email`
-
-`3. ACL Laratrust`
-
-`4. Configuaration from database`
-
-`5. Laravel IDE Helper`
-
-`6. Laravel Debug Bar`
+    
+    1. Multi Site
+    
+    2. Login by name or email
+    
+    3. ACL Laratrust
+    
+    4. Configuaration from database
+    
+    5. Laravel IDE Helper
+    
+    6. Laravel Debug Bar
 
 ## Installation
 
-`composer create-project jh5/laravel_quick_start`
+    composer create-project jh5/laravel_quick_start
 
-`cd laravel_quick_start`
+    cd laravel_quick_start
 
-`cp .env.example .env`
+    cp .env.example .env
 
-`php artisan key:generate`
+    php artisan key:generate
 
-`php artisan ide-helper:generate`
+    php artisan ide-helper:generate
 
-`php artisan migrate:refresh --seed`
+    php artisan migrate:refresh --seed
 
     Update DB_CONNECTION in env file
 

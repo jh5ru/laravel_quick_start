@@ -2,9 +2,9 @@
     "name": "jh5/laravel_quick_start",
     "description": "The Laravel Quick Starter Kit.",
     "type": "project",
-    "minimum-stability": "stable",
+    "minimum-stability": "dev",
     "prefer-stable": true,
-    "version": "2.0.1",
+    "version": "v2.0.1-stable",
     "license": "MIT",
     "repositories": [
         {

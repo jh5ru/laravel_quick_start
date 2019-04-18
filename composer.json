@@ -4,7 +4,6 @@
     "type": "project",
     "minimum-stability": "dev",
     "prefer-stable": true,
-    "version": "v2.0.1-stable",
     "license": "MIT",
     "repositories": [
         {

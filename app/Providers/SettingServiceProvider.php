@@ -4,6 +4,7 @@ namespace App\Providers;
 
 use Illuminate\Support\Facades\App;
 use Illuminate\Support\Facades\DB;
+use Illuminate\Support\Facades\Log;
 use Illuminate\Support\Facades\Route;
 use Illuminate\Support\Facades\Schema;
 use Illuminate\Support\ServiceProvider;
@@ -33,7 +34,7 @@ class SettingServiceProvider extends ServiceProvider
      */
     public function boot()
     {
-        if (Schema::hasTable('settings')) {
+        try {
             $this->getCurrentSite();
             foreach ($this->getSettings()->flatten()->toArray() as $setting) {
                 config([$setting->category . '.' . $setting->name => $setting->value]);
@@ -44,6 +45,8 @@ class SettingServiceProvider extends ServiceProvider
                 App::abort(503, 'Site configuration errors!');
             }
             config(['app.site_id' => $this->site_id]);
+        } catch (\Exception $e) {
+           Log::info('install');
         }
     }
 

@@ -18,6 +18,8 @@
 
 `composer create-project jh5/laravel_quick_start`
 
+`cd laravel_quick_start`
+
 `cp .env.example .env`
 
 `php artisan key:generate`

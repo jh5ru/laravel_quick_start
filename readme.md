@@ -8,7 +8,7 @@
   <a href="https://jh5.ru/docs">Official documentation</a>
  
   <a href="https://jh5.ru">
-    <img src="https://avatars.mds.yandex.net/get-dialogs/1017510/d0fa213747d400400507/orig" alt="jh5.studio">
+    <img src="http://www.studio-review.ru/files/uploadw5vrp7nvgk.png" alt="jh5.studio">
   </a>
  
 </div>

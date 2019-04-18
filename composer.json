@@ -1,10 +1,10 @@
 {
-    "name": "jh5/laravel",
+    "name": "jh5/laravel_quick_start",
     "type": "project",
     "repositories": [
         {
             "type": "vcs",
-            "url": "https://github.com//hello-world"
+            "url": "https://github.com/jh5ru/laravel_quick_start"
         }
     ],
     "description": "The Laravel Quick Starter Kit.",

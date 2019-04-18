@@ -1,4 +1,9 @@
 <div align="center">
+
+  <a href="https://jh5.ru">
+    <img src="http://www.studio-review.ru/files/uploadw5vrp7nvgk.png" alt="jh5.studio">
+  </a>
+
   <h1>LARAVEL QUICK START PROJECT</h1>
 
   <a href="#resources">Resources</a>
@@ -6,10 +11,6 @@
   <a href="contributing.md">Contribution guide</a>
   &nbsp;&nbsp;&nbsp;
   <a href="https://jh5.ru/docs">Official documentation</a>
- 
-  <a href="https://jh5.ru">
-    <img src="http://www.studio-review.ru/files/uploadw5vrp7nvgk.png" alt="jh5.studio">
-  </a>
  
 </div>
 

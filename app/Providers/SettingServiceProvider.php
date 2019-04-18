@@ -35,17 +35,18 @@ class SettingServiceProvider extends ServiceProvider
      */
     public function boot()
     {
-        $this->getCurrentSite();
-        if ($this->getSettings()) {
+        if (!Schema::hasTable('settings')) {
+            $this->getCurrentSite();
             foreach ($this->getSettings()->flatten()->toArray() as $setting) {
                 config([$setting->category . '.' . $setting->name => $setting->value]);
             }
+
+            View::addLocation(resource_path('/views/' . 'site_' . $this->site_id));
+            if (!$this->site_id and isset($_SERVER['HTTP_HOST'])) {
+                App::abort(503, 'Site configuration errors!');
+            }
+            config(['app.site_id' => $this->site_id]);
         }
-        View::addLocation(resource_path('/views/' . 'site_' . $this->site_id));
-        if (!$this->site_id and isset($_SERVER['HTTP_HOST'])) {
-            App::abort(503, 'Site configuration errors!');
-        }
-        config(['app.site_id' => $this->site_id]);
     }
 
     protected function getCurrentSite()
@@ -68,11 +69,7 @@ class SettingServiceProvider extends ServiceProvider
 
     protected function getSettings()
     {
-        if (!Schema::hasTable('settings')) {
-            return false;
-        }
         $settings = DB::table('settings')->where('site_id', '=', $this->site_id)->get();
         return $settings;
-
     }
 }

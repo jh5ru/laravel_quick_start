@@ -20,7 +20,7 @@
 ##### For help visit [https://jh5.ru](https://jh5.ru)!
 
 ##
-## FEATURES:
+## Features:
     
     1. Multi Site
     

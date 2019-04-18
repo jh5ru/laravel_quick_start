@@ -15,9 +15,9 @@
 </div>
 
 ### LARAVEL VERSION 5.8
-
+##
 ##### For help visit [https://jh5.ru](https://jh5.ru)!
-
+##
 ##### FEATURES:
     
     1. Multi Site
@@ -32,6 +32,7 @@
     
     6. Laravel Debug Bar
 
+##
 ## Installation
 
     composer create-project jh5/laravel_quick_start

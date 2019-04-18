@@ -2,13 +2,11 @@
 
 namespace App\Providers;
 
-use App\View\ThemeViewFinder;
 use Illuminate\Support\Facades\App;
 use Illuminate\Support\Facades\DB;
 use Illuminate\Support\Facades\Route;
 use Illuminate\Support\Facades\Schema;
 use Illuminate\Support\ServiceProvider;
-use Illuminate\View\FileViewFinder;
 use Illuminate\Support\Facades\View;
 
 
@@ -35,7 +33,7 @@ class SettingServiceProvider extends ServiceProvider
      */
     public function boot()
     {
-        if (!Schema::hasTable('settings')) {
+        if (Schema::hasTable('settings')) {
             $this->getCurrentSite();
             foreach ($this->getSettings()->flatten()->toArray() as $setting) {
                 config([$setting->category . '.' . $setting->name => $setting->value]);

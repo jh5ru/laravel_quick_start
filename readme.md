@@ -1,6 +1,4 @@
 <div align="center">
-  <img width="250" src="https://jh5.ru/assets/sites/jh5/images/logo_footer.svg" alt="jh5.cms">
-  <br>
   <h1>LARAVEL QUICK START PROJECT</h1>
 
   <a href="#resources">Resources</a>
@@ -8,10 +6,11 @@
   <a href="contributing.md">Contribution guide</a>
   &nbsp;&nbsp;&nbsp;
   <a href="https://jh5.ru/docs">Official documentation</a>
-
-  <a href="https://awesome.re">
-    <img src="https://awesome.re/badge.svg" alt="Awesome">
+ 
+  <a href="https://jh5.ru">
+    <img src="https://jh5.ru/assets/sites/jh5/images/logo_footer.svg" alt="jh5.studio">
   </a>
+ 
 </div>
 
 ### LARAVEL VERSION 5.8

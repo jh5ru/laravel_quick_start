@@ -14,7 +14,7 @@
 
 `6. Laravel Debug Bar`
 
-## Instalation
+## Installation
 
 `composer create-project jh5/laravel_quick_start`
 

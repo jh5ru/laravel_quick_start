@@ -30,7 +30,7 @@
 
 `php artisan migrate:refresh --seed`
 
-Update DB_CONNECTION in env file
+    Update DB_CONNECTION in env file
 
-Login: `admin : test` or `test@yandex.ru : test`
+    Auth: admin : test or test@yandex.ru : test
 

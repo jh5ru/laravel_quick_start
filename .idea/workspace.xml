@@ -1,9 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="862fddc2-6195-4e92-8006-e3af00ca4385" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/liIcense.md" beforeDir="false" />
-    </list>
+    <list default="true" id="862fddc2-6195-4e92-8006-e3af00ca4385" name="Default Changelist" comment="" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -285,12 +283,12 @@
       <workItem from="1555452969304" duration="583000" />
       <workItem from="1555534078239" duration="4839000" />
       <workItem from="1555573732307" duration="5257000" />
-      <workItem from="1555583303682" duration="2419000" />
+      <workItem from="1555583303682" duration="2587000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="31895000" />
+    <option name="totallyTimeSpent" value="32063000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="51" y="139" width="1784" height="992" extended-state="0" />
@@ -641,16 +639,16 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/resources/views/welcome.blade.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-722" />
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/composer.json">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="511">
           <caret line="73" column="71" selection-start-line="73" selection-start-column="71" selection-end-line="73" selection-end-column="71" />
         </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/resources/views/welcome.blade.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-722" />
       </provider>
     </entry>
   </component>
